@@ -1,5 +1,5 @@
 {
-  "name": "hello-chatconnector",
+  "name": "rebbl-BoB",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "discord.js": "^11.3.0",
-    "restify": "^6.3.4"
+    "restify": "^6.3.4",
+    "restify-plugins": "^1.6.0"
   }
 }
