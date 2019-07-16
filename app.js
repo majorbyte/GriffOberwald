@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const RoleManager = require('./rolemanager.js');
+const RelayHandler = require('./relayHandler.js');
 const Check = require('./cripple_check.js');
 const restify = require('restify');
 
@@ -7,6 +8,7 @@ const restify = require('restify');
 const client = new Discord.Client();
 
 const roleManager = new RoleManager.rolemanager(client);
+const dr = new RelayHandler.relayHandler(client);
 
 client.login(process.env['DiscordToken']);
 
